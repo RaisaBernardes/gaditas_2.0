@@ -1,0 +1,46 @@
+{
+  "name": "gaditas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "@shadcn/ui": "^0.0.4",
+    "@studio-freight/lenis": "^1.0.42",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.9.7",
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.1",
+    "lucide-react": "^0.507.0",
+    "next": "15.3.1",
+    "nodemailer": "^7.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.56.3",
+    "react-icons": "^5.5.0",
+    "react-responsive": "^10.0.1",
+    "split-type": "^0.3.4",
+    "usehooks-ts": "^3.1.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.1.4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.5",
+    "typescript": "^5"
+  }
+}
