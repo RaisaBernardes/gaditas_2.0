@@ -30,7 +30,7 @@ export default function Home() {
         setTimeout(() => {
           setIsReady(true)
         }, 100)
-      } catch (error) {
+      } catch (_) {
         // Se falhar, mostra mesmo assim
         setIsReady(true)
       }

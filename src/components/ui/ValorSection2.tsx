@@ -11,29 +11,6 @@ import AddRoadIcon from "@mui/icons-material/AddRoad";
 import StorefrontIcon from "@mui/icons-material/Storefront";
 import Link from 'next/link'
 
-const features = [
-  {
-    title: "Entrega sem surpresas",
-    description: "Você recebe um orçamento realista, cronograma bem definido e uma entrega que respeita exatamente o que foi combinado.",
-    icon: <VerifiedIcon className="text-[#00D3FE]" />,
-  },
-  {
-    title: "Qualidade em cada detalhe",
-    description: "Cuidamos de cada etapa como se fosse única, com precisão técnica e acabamento que fala por si.",
-    icon: <HandymanIcon className="text-[#00D3FE]" />,
-  },
-  {
-    title: "Transparência Total",
-    description: "Você participa, entende e aprova cada passo com clareza.",
-    icon: <ChatBubbleOutlineIcon className="text-[#00D3FE]" />,
-  },
-  {
-    title: "Flexibilidade",
-    description:
-      "Projetos sob medida para a sua realidade. Residenciais, reformas, lazer ou infraestrutura: nos adaptamos ao que você precisa, com inteligência e compromisso.",
-    icon: <TuneIcon className="text-[#00D3FE]" />,
-  },
-];
 
 const services = [
   {

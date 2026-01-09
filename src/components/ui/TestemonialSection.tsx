@@ -16,7 +16,7 @@ export default function TestimonialSection() {
             format_quote
           </span>
           <h3 className="text-3xl md:text-4xl lg:text-4xl font-serif text-[var(--black)] mb-10 max-w-5xl mx-auto merriweather-light leading-tight">
-            "Desde o primeiro contato, senti que estava lidando com uma empresa séria e comprometida. A equipe da Gaditas nos acompanhou em cada etapa da obra, sempre com transparência, organização e atenção aos detalhes. O resultado ficou além do que imaginávamos! Recomendo muito!"
+             &ldquo;Desde o primeiro contato, senti que estava lidando com uma empresa séria e comprometida. A equipe da Gaditas nos acompanhou em cada etapa da obra, sempre com transparência, organização e atenção aos detalhes. O resultado ficou além do que imaginávamos! Recomendo muito!&rdquo;
           </h3>
           <div className="flex flex-col items-center gap-1">
             <cite className="not-italic font-bold text-[#121617] text-lg">Maria do Carmo</cite>
