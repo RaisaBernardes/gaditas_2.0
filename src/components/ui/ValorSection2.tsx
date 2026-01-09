@@ -1,9 +1,5 @@
 "use client";
 
-import VerifiedIcon from "@mui/icons-material/Verified";
-import HandymanIcon from "@mui/icons-material/Handyman";
-import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
-import TuneIcon from "@mui/icons-material/Tune";
 import HomeWorkIcon from "@mui/icons-material/HomeWork";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import DeckIcon from "@mui/icons-material/Deck";
