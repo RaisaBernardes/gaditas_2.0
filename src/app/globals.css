@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
-@import url('href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=format_quote');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 
 @import "tailwindcss";
 @tailwind utilities;
-
 
 :root {
   --background: #ffffff;
@@ -53,7 +50,6 @@ body {
   @apply bg-[#0F172B] hover:bg-[#0F172B];
 }
 
-
 html.lenis,
 html.lenis body {
   height: auto;
@@ -79,21 +75,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.roboto-condensed-700 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.roboto-condensed-500 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
-
 .manrope-light {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
@@ -112,30 +93,28 @@ html {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-style: bold;
+  font-style: normal;
 }
 
 .merriweather-light {
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
   font-weight: 300;
-  font-style: light;
-  font-variation-settings:
-    "wdth" 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 .material-symbols-outlined {
   font-variation-settings:
-  'FILL' 1,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+    "FILL" 1,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
 }
-
 
 .space-grotesk-hero {
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: bold;
+  font-style: normal;
 }

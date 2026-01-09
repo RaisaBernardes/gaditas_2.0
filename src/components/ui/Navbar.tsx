@@ -80,7 +80,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="w-full top-0 left-0 z-50 transparent backdrop-blur bg-[#13262A]">
+      <nav className="w-full absolute top-0 left-0 z-50 transparent">
         <div className="max-w-screen-xl mx-auto px-4">
           <div className="flex justify-between items-center h-16">
             {/* Left - Brand + Links */}

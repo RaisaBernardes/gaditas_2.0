@@ -51,7 +51,7 @@ export default function HeroSection({ reveal = true }: HeroSectionProps) {
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.18 }}
           className="mt-6 text-sm md:text-base tracking-wide text-gray-300 max-w-xl manrope-light"
         >
-          Projetos residenciais, reformas e soluções construtivas conduzidas com rigor técnico, comunicação direta e cuidado do início ao fim.
+          Projetos residenciais e reformas conduzidos com rigor técnico, comunicação direta e um padrão de cuidado perceptível em cada etapa.
         </motion.p>
 
         <motion.div
@@ -61,10 +61,10 @@ export default function HeroSection({ reveal = true }: HeroSectionProps) {
           className="flex gap-4 items-center flex-col sm:flex-row mt-8"
         >
           <a
-            className="text-black manrope-regular rounded-sm border border-solid border-transparent transition-colors flex items-center justify-center gap-2 hover:bg-[var(--darkyellow)] bg-[var(--yellow)] text-sm sm:text-sm h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
+            className="text-black manrope-regular rounded-sm border border-solid border-transparent transition-colors flex items-center justify-center gap-2 hover:bg-[var(--darkyellow)] bg-[var(--yellow)] text-base sm:text-sm h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
             href="https://wa.me/5571981065728"
           >
-            Falar com equipe
+            Avaliar meu projeto
           </a>
         </motion.div>
       </motion.div>

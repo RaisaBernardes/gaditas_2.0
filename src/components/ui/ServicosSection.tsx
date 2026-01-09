@@ -53,10 +53,11 @@ export default function ServicesParallax() {
   const isMobile = useMediaQuery('(max-width: 768px)');
 
   return (
-    <section id="servicos" className="flex flex-col md:flex-row bg-gray-50 px-4 py-8 md:py-24 pt-20 md:pt-40 items-start mx-auto gap-8 max-w-[1380px]">
+    <section id="servicos" className="flex flex-col md:flex-row bg-gray-50 px-4 py-8 md:py-24 pt-20 md:pt-40 items-start mx-auto gap-8 ">
+      <div className='items-start max-w-[1380px] flex flex-col md:flex-row mx-auto'>
       
       {/* LEFT SIDE */}
-      <div className="md:space-y-2 w-full justify-start md:w-1/2 md:sticky top-24 md:px-8 flex flex-col max-w-[600px] mx-auto md:mx-0">
+      <div className="md:space-y-2 w-full justify-start md:w-1/2 md:sticky top-24 md:px-8 flex flex-col max-w-[600px] mx-auto md:mx-0 bg-gray-50">
         <ScrollFadeSection
           delay = {0.2}
           duration = {0.4}
@@ -87,7 +88,7 @@ export default function ServicesParallax() {
             duration = {0.4}
             offsetY={10}>
             <a
-              className="manrope-regular rounded-full border border-solid border-transparent transition-colors flex items-center justify-center text-background gap-2 hover:bg-[var(--darkgreen)] bg-[var(--green)]  text-sm sm:text-sm h-8 sm:h-10 px-4 sm:px-5 sm:w-auto"
+              className="manrope-regular rounded-sm border border-solid border-transparent transition-colors flex items-center justify-center text-background gap-2 hover:bg-[var(--darkgreen)] bg-[var(--green)]  text-sm sm:text-sm h-8 sm:h-10 px-4 sm:px-5 sm:w-auto"
               href="https://wa.me/5571981065728"
             >
               Solicitar Orçamento
@@ -137,7 +138,7 @@ export default function ServicesParallax() {
           
         </motion.div>
       </div>
-      
+      </div>
     </section>
   );
 }

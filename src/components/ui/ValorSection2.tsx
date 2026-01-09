@@ -68,7 +68,7 @@ export default function ValuesSplitCentered() {
   return (
     <section className="py-24 md:py-48 bg-gray-50" id="services">
       <div className="max-w-[1280px] mx-auto px-4 md:px-10">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-start mb-12 gap-6">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-[var(--black)]  mb-2 manrope-bold">Como conduzimos cada obra</h2>
             <p className="text-gray-500 max-w-md manrope-light">Execução construtiva completa para clientes que valorizam rigor e qualidade.</p>
@@ -105,7 +105,7 @@ export default function ValuesSplitCentered() {
             <p className="text-gray-300 text-sm leading-relaxed mb-6 manrope-light">
               Atendemos demandas construtivas fora do padrão. Entre em contato para avaliar sua necessidade e definir a melhor solução técnica.
             </p>
-            <button className="bg-white text-[var(--green)] px-4 py-2 rounded text-sm font-bold hover:bg-gray-100 transition-colors manrope-light">
+            <button className="bg-white text-[var(--green)] px-4 py-2 rounded text-sm font-bold hover:bg-gray-200 transition-colors manrope-light">
               Falar com equipe
             </button>
           </div>
